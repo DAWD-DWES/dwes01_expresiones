@@ -17,8 +17,10 @@ and open the template in the editor.
         $texto = "mundo";
 
         echo '$a + $b * $c / ($a - 3) : ', var_dump($a + $b * $c / ($a - 3)), "</br>";
-        echo 'true && false : ', var_dump(true && false), "</br>";
-        echo 'true and false : ', var_dump(true and false), "</br>";
+        $resultado = true && false;
+        echo '$resultado = true && false : ', "Valor de resultado: ", var_dump($resultado), "</br>";
+        $resultado = true and false;
+        echo '$resultado = true and false : ', "Valor de resultado: ", var_dump($resultado), "</br>";
         echo '$resultado = ++$a : ', var_dump($resultado = ++$a), "</br>";
         echo '$a == $b <= $c : ', var_dump($a == $b <= $c) , "</br>";
         echo '$saludo .= "Hola " : ', var_dump($texto .= "Hola "), "</br>";
