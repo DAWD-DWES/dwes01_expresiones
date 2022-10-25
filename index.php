@@ -19,7 +19,8 @@ and open the template in the editor.
         echo '$a + $b * $c / ($a - 3) : ', var_dump($a + $b * $c / ($a - 3)), "</br>";
         echo 'true && false : ', var_dump(true && false), "</br>";
         echo 'true and false : ', var_dump(true and false), "</br>";
-        echo '$resultado = $a++ : ', var_dump($resultado = ++$a), "</br>";
+        echo '$resultado = ++$a : ', var_dump($resultado = ++$a), "</br>";
+        echo '$a == $b <= $c : ', var_dump($a == $b <= $c) , "</br>";
         echo '$saludo .= "Hola " : ', var_dump($texto .= "Hola "), "</br>";
         echo '$x = ($y = 11)+9 : ', var_dump($x = ($y = 11) + 9), "</br>";
         echo '$x = $y = 11 + 9 : ', var_dump($x = $y = 11 + 9), "</br>";
